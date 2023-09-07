@@ -8,4 +8,4 @@ for i in df['RusRub']:
     num.append(n)
 
 df['BelRub'] = num
-df.to_excel('D:/python/ExcelPython/Сonversion.xlsx', index=False)
+df.to_excel('D:/WorKProgramer/Excel-Conversion/Сonversion.xlsx', index=False)
