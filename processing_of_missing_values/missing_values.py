@@ -20,7 +20,7 @@ def sample_averages(df):
     df.to_excel('...', index=False)
 
 
-# bfill - след, ffill-передыдущие
+# bfill - след, ffill-передыдущие значения
 def previous_and_next_values(df):
     for i in df[['X1', 'X2', 'X3', 'X4']]:
         df[i] = df[i].bfill().ffill()
